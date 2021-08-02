@@ -1,6 +1,6 @@
 Routes APIS
 
-http://localhost:8000/api/user/store
+POST http://localhost:8000/api/user/store
 
 {
     "name": "João",
@@ -9,7 +9,7 @@ http://localhost:8000/api/user/store
     "type": "CPF"
 }
 
-http://localhost:8000/api/transaction
+POST http://localhost:8000/api/transaction/store
 
 {
     "value" : 100.00,
