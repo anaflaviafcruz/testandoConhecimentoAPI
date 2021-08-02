@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::post('user/store', [UserController::class, 'store']);
 
 //register transaction
-Route::post('transaction', [TransactionController::class, 'store']);
+Route::post('transaction/store', [TransactionController::class, 'store']);
